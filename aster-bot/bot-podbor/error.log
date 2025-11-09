@@ -1,0 +1,701 @@
+2024-11-21 21:18:18,883 - __main__ - INFO - \u0411\u0430\u0437\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u0438 \u0442\u0430\u0431\u043b\u0438\u0446\u044b \u0438\u043d\u0438\u0446\u0438\u0430\u043b\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u044b.
+2024-11-21 21:18:18,883 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x000002A58DE41700>
+2024-11-21 21:18:19,024 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-21 21:18:19,024 - __main__ - INFO - \U0001f552 \u0417\u0430\u0434\u0430\u0447\u0430 \u043d\u0430 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043f\u0440\u0438\u0437\u043e\u0432 \u0437\u0430\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0430 \u0447\u0435\u0440\u0435\u0437 139301 \u0441\u0435\u043a\u0443\u043d\u0434.
+2024-11-21 21:18:19,024 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-21 21:18:19,024 - __main__ - INFO - \U0001f680 \u0417\u0430\u043f\u0443\u0441\u043a \u0431\u043e\u0442\u0430...
+2024-11-21 21:18:19,024 - apscheduler.scheduler - INFO - Added job "<lambda>" to job store "default"
+2024-11-21 21:18:19,024 - apscheduler.scheduler - INFO - Added job "<lambda>" to job store "default"
+2024-11-21 21:18:19,024 - apscheduler.scheduler - INFO - Scheduler started
+2024-11-21 21:18:19,024 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2024-11-21 21:18:19,024 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2024-11-23 09:00:00+00:00 (in 139300.975475 seconds)
+2024-11-21 21:18:19,024 - telegram.bot - DEBUG - Entering: get_me
+2024-11-21 21:18:19,071 - telegram.bot - DEBUG - {'can_join_groups': True, 'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'supports_inline_queries': False, 'is_bot': True, 'id': 7993124251, 'can_read_all_group_messages': False}
+2024-11-21 21:18:19,071 - telegram.bot - DEBUG - Exiting: get_me
+2024-11-21 21:18:19,087 - telegram.ext.updater - DEBUG - Bot:7993124251:dispatcher - started
+2024-11-21 21:18:19,087 - telegram.ext.updater - DEBUG - Bot:7993124251:updater - started
+2024-11-21 21:18:19,087 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2024-11-21 21:18:19,087 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2024-11-21 21:18:19,087 - telegram.ext.updater - DEBUG - Deleting webhook
+2024-11-21 21:18:19,087 - telegram.bot - DEBUG - Entering: delete_webhook
+2024-11-21 21:18:19,087 - telegram.ext.updater - DEBUG - Waiting for Dispatcher and polling to start
+2024-11-21 21:18:19,087 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2024-11-21 21:18:19,087 - telegram.bot - DEBUG - True
+2024-11-21 21:18:19,087 - telegram.bot - DEBUG - Exiting: delete_webhook
+2024-11-21 21:18:19,087 - telegram.ext.updater - DEBUG - Bootstrap done
+2024-11-21 21:18:19,087 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2024-11-21 21:18:19,087 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:18:19,087 - telegram.bot - DEBUG - Getting updates: [318267955, 318267956, 318267957, 318267958, 318267959, 318267960, 318267961, 318267962, 318267963]
+2024-11-21 21:18:19,102 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002A58DE2F040>, <telegram.update.Update object at 0x000002A58DE2EC80>, <telegram.update.Update object at 0x000002A58DE2EEC0>, <telegram.update.Update object at 0x000002A58DE2F100>, <telegram.update.Update object at 0x000002A58DE2F1C0>, <telegram.update.Update object at 0x000002A58DE2F280>, <telegram.update.Update object at 0x000002A58DE2F340>, <telegram.update.Update object at 0x000002A58DE2F400>, <telegram.update.Update object at 0x000002A58DE2F4C0>]
+2024-11-21 21:18:19,102 - telegram.bot - DEBUG - Exiting: get_updates
+2024-11-21 21:18:19,102 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:18:19,102 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213065, 'new_chat_photo': [], 'text': '\u0411\u0435\u0437 \u0440\u0430\u0437\u043d\u0438\u0446\u044b', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': '\u0413\u0430\u0443\u0445\u0430\u0440', 'type': 'private', 'id': 6526731411}, 'message_id': 2600, 'from': {'language_code': 'ru', 'first_name': '\u0413\u0430\u0443\u0445\u0430\u0440', 'is_bot': False, 'id': 6526731411}}, 'update_id': 318267955}
+2024-11-21 21:18:19,102 - telegram.ext.conversationhandler - DEBUG - selecting conversation (6526731411, 6526731411) with state None
+2024-11-21 21:18:19,118 - __main__ - INFO - \u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u043e\u0442 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f 6526731411: \u0411\u0435\u0437 \u0440\u0430\u0437\u043d\u0438\u0446\u044b
+2024-11-21 21:18:19,118 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:18:19,196 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213099, 'new_chat_photo': [], 'text': '\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': '\u0413\u0430\u0443\u0445\u0430\u0440', 'type': 'private', 'id': 6526731411}, 'message_id': 2605, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:18:19,196 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:18:19,196 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213065, 'new_chat_photo': [], 'text': '\u0413\u0430\u043b\u0438\u043d\u0430', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': '\u0413\u0430\u043b\u0438\u043d\u0430', 'type': 'private', 'last_name': '\u041a\u0440\u0443\u0445\u043c\u0430\u043b\u0451\u0432\u0430', 'id': 6407517802}, 'message_id': 2601, 'from': {'language_code': 'ru', 'first_name': '\u0413\u0430\u043b\u0438\u043d\u0430', 'is_bot': False, 'last_name': '\u041a\u0440\u0443\u0445\u043c\u0430\u043b\u0451\u0432\u0430', 'id': 6407517802}}, 'update_id': 318267956}
+2024-11-21 21:18:19,196 - telegram.ext.conversationhandler - DEBUG - selecting conversation (6407517802, 6407517802) with state None
+2024-11-21 21:18:19,196 - __main__ - INFO - \u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u043e\u0442 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f 6407517802: \u0413\u0430\u043b\u0438\u043d\u0430
+2024-11-21 21:18:19,196 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:18:19,227 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213099, 'new_chat_photo': [], 'text': '\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': '\u0413\u0430\u043b\u0438\u043d\u0430', 'type': 'private', 'last_name': '\u041a\u0440\u0443\u0445\u043c\u0430\u043b\u0451\u0432\u0430', 'id': 6407517802}, 'message_id': 2606, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:18:19,227 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:18:19,227 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213067, 'new_chat_photo': [], 'text': '7,8 \u043c\u0438\u043b', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Rus', 'type': 'private', 'id': 774034928}, 'message_id': 2602, 'from': {'language_code': 'ru', 'first_name': 'Rus', 'is_bot': False, 'id': 774034928}}, 'update_id': 318267957}
+2024-11-21 21:18:19,227 - telegram.ext.conversationhandler - DEBUG - selecting conversation (774034928, 774034928) with state None
+2024-11-21 21:18:19,227 - __main__ - INFO - \u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u043e\u0442 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f 774034928: 7,8 \u043c\u0438\u043b
+2024-11-21 21:18:19,227 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:18:19,274 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213099, 'new_chat_photo': [], 'text': '\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Rus', 'type': 'private', 'id': 774034928}, 'message_id': 2607, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:18:19,274 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:18:19,274 - telegram.ext.dispatcher - DEBUG - Processing Update: {'callback_query': {'chat_instance': '-7664268240777482369', 'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213059, 'new_chat_photo': [], 'text': '\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Rus', 'type': 'private', 'id': 774034928}, 'message_id': 2597, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}, 'data': 'menu:select_car', 'id': '3324454705875368169', 'from': {'language_code': 'ru', 'first_name': 'Rus', 'is_bot': False, 'id': 774034928}}, 'update_id': 318267958}
+2024-11-21 21:18:19,274 - telegram.ext.conversationhandler - DEBUG - selecting conversation (774034928, 774034928) with state None
+2024-11-21 21:18:19,274 - telegram.bot - DEBUG - Entering: answer_callback_query
+2024-11-21 21:18:19,274 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\Administrator\Desktop\!parser\bot\main.py", line 990, in button_handler
+    query.answer()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\callbackquery.py", line 166, in answer
+    return self.bot.answer_callback_query(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 2793, in answer_callback_query
+    result = self._post('answerCallbackQuery', data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Query is too old and response timeout expired or query id is invalid
+2024-11-21 21:18:19,321 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:18:19,368 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213099, 'new_chat_photo': [], 'text': '\u26a0\ufe0f \u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u0432\u0430\u0448\u0435\u0433\u043e \u0437\u0430\u043f\u0440\u043e\u0441\u0430. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043f\u043e\u0437\u0436\u0435.', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Rus', 'type': 'private', 'id': 774034928}, 'message_id': 2608, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:18:19,368 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:18:19,368 - telegram.ext.dispatcher - DEBUG - Processing Update: {'callback_query': {'chat_instance': '-7664268240777482369', 'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213059, 'new_chat_photo': [], 'text': '\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Rus', 'type': 'private', 'id': 774034928}, 'message_id': 2597, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}, 'data': 'menu:select_car', 'id': '3324454703129635537', 'from': {'language_code': 'ru', 'first_name': 'Rus', 'is_bot': False, 'id': 774034928}}, 'update_id': 318267959}
+2024-11-21 21:18:19,368 - telegram.ext.conversationhandler - DEBUG - selecting conversation (774034928, 774034928) with state None
+2024-11-21 21:18:19,368 - telegram.bot - DEBUG - Entering: answer_callback_query
+2024-11-21 21:18:19,383 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\Administrator\Desktop\!parser\bot\main.py", line 990, in button_handler
+    query.answer()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\callbackquery.py", line 166, in answer
+    return self.bot.answer_callback_query(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 2793, in answer_callback_query
+    result = self._post('answerCallbackQuery', data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Query is too old and response timeout expired or query id is invalid
+2024-11-21 21:18:19,383 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:18:19,415 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213099, 'new_chat_photo': [], 'text': '\u26a0\ufe0f \u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u0432\u0430\u0448\u0435\u0433\u043e \u0437\u0430\u043f\u0440\u043e\u0441\u0430. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043f\u043e\u0437\u0436\u0435.', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Rus', 'type': 'private', 'id': 774034928}, 'message_id': 2609, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:18:19,415 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:18:19,415 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213079, 'contact': {'user_id': 1066101429, 'first_name': '\u0411\u0430\u049b\u044b\u0442', 'last_name': '\u041d\u04b1\u0440\u044b\u043c', 'phone_number': '77074976008'}, 'new_chat_photo': [], 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': '\u0411\u0430\u049b\u044b\u0442', 'type': 'private', 'last_name': '\u041d\u04b1\u0440\u044b\u043c', 'id': 1066101429}, 'message_id': 2603, 'from': {'language_code': 'ru', 'first_name': '\u0411\u0430\u049b\u044b\u0442', 'is_bot': False, 'last_name': '\u041d\u04b1\u0440\u044b\u043c', 'id': 1066101429}}, 'update_id': 318267960}
+2024-11-21 21:18:19,415 - telegram.ext.conversationhandler - DEBUG - selecting conversation (1066101429, 1066101429) with state None
+2024-11-21 21:18:19,415 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_to_message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213060, 'new_chat_photo': [], 'text': '\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435! \u0420\u0430\u0434\u044b \u0432\u0438\u0434\u0435\u0442\u044c \u0432\u0430\u0441. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u0434\u0435\u043b\u0438\u0442\u0435\u0441\u044c \u0441\u0432\u043e\u0438\u043c \u043d\u043e\u043c\u0435\u0440\u043e\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430 \u0438\u043b\u0438 \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0435\u0433\u043e \u0434\u043b\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': '\u0421\u0435\u0440\u0433\u0435\u0439', 'type': 'private', 'last_name': '\u0413\u0440\u0438\u0434\u043d\u0435\u0432', 'id': 1035008740}, 'message_id': 2599, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}, 'date': 1732213087, 'contact': {'user_id': 1035008740, 'first_name': '\u0421\u0435\u0440\u0433\u0435\u0439', 'last_name': '\u0413\u0440\u0438\u0434\u043d\u0435\u0432', 'phone_number': '77710531477'}, 'new_chat_photo': [], 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': '\u0421\u0435\u0440\u0433\u0435\u0439', 'type': 'private', 'last_name': '\u0413\u0440\u0438\u0434\u043d\u0435\u0432', 'id': 1035008740}, 'message_id': 2604, 'from': {'language_code': 'ru', 'first_name': '\u0421\u0435\u0440\u0433\u0435\u0439', 'is_bot': False, 'last_name': '\u0413\u0440\u0438\u0434\u043d\u0435\u0432', 'id': 1035008740}}, 'update_id': 318267961}
+2024-11-21 21:18:19,415 - telegram.ext.conversationhandler - DEBUG - selecting conversation (1035008740, 1035008740) with state None
+2024-11-21 21:18:19,415 - telegram.ext.dispatcher - DEBUG - Processing Update: {'callback_query': {'chat_instance': '-7664268240777482369', 'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213059, 'new_chat_photo': [], 'text': '\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Rus', 'type': 'private', 'id': 774034928}, 'message_id': 2597, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}, 'data': 'menu:select_car', 'id': '3324454705119522353', 'from': {'language_code': 'ru', 'first_name': 'Rus', 'is_bot': False, 'id': 774034928}}, 'update_id': 318267962}
+2024-11-21 21:18:19,415 - telegram.ext.conversationhandler - DEBUG - selecting conversation (774034928, 774034928) with state None
+2024-11-21 21:18:19,415 - telegram.bot - DEBUG - Entering: answer_callback_query
+2024-11-21 21:18:19,430 - telegram.bot - DEBUG - True
+2024-11-21 21:18:19,430 - telegram.bot - DEBUG - Exiting: answer_callback_query
+2024-11-21 21:18:19,430 - telegram.bot - DEBUG - Entering: edit_message_text
+2024-11-21 21:18:19,462 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213059, 'new_chat_photo': [], 'edit_date': 1732213099, 'text': '\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435! \u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c \u0432 \u0430\u0432\u0442\u043e\u0441\u0430\u043b\u043e\u043d Aster auto. \u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0410\u0441\u0435\u0442, \u044f \u0432\u0430\u0448 \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440.\n\n\u0413\u043e\u0442\u043e\u0432 \u043f\u043e\u043c\u043e\u0447\u044c \u0432 \u043f\u043e\u0434\u0431\u043e\u0440\u0435 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430, \u0443\u0447\u0438\u0442\u044b\u0432\u0430\u044f \u0432\u0430\u0448\u0438 \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0442\u0435\u043d\u0438\u044f \u0438 \u0431\u044e\u0434\u0436\u0435\u0442.\n\n\u042f \u0437\u0434\u0435\u0441\u044c, \u0447\u0442\u043e\u0431\u044b \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0432\u0430\u0448 \u043e\u043f\u044b\u0442 \u043f\u043e\u043a\u0443\u043f\u043a\u0438 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u044b\u043c!\n\n\u041a\u0430\u043a\u043e\u0439 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044c \u0432\u0430\u0441 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u0443\u0435\u0442?', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Rus', 'type': 'private', 'id': 774034928}, 'message_id': 2597, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:18:19,462 - telegram.bot - DEBUG - Exiting: edit_message_text
+2024-11-21 21:18:19,462 - apscheduler.scheduler - INFO - Added job "send_inactivity_message" to job store "default"
+2024-11-21 21:18:19,462 - telegram.ext.dispatcher - DEBUG - Processing Update: {'callback_query': {'chat_instance': '-7664268240777482369', 'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213059, 'new_chat_photo': [], 'text': '\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Rus', 'type': 'private', 'id': 774034928}, 'message_id': 2597, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}, 'data': 'menu:select_car', 'id': '3324454703353786129', 'from': {'language_code': 'ru', 'first_name': 'Rus', 'is_bot': False, 'id': 774034928}}, 'update_id': 318267963}
+2024-11-21 21:18:19,462 - telegram.ext.conversationhandler - DEBUG - selecting conversation (774034928, 774034928) with state None
+2024-11-21 21:18:19,462 - telegram.bot - DEBUG - Entering: answer_callback_query
+2024-11-21 21:18:19,462 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2024-11-21 21:18:19,462 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2024-11-21 18:48:19.462039+00:00 (in 1800.000000 seconds)
+2024-11-21 21:18:19,524 - telegram.bot - DEBUG - True
+2024-11-21 21:18:19,524 - telegram.bot - DEBUG - Exiting: answer_callback_query
+2024-11-21 21:18:19,524 - telegram.bot - DEBUG - Entering: edit_message_text
+2024-11-21 21:18:19,571 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\Administrator\Desktop\!parser\bot\main.py", line 998, in button_handler
+    user_button_handler(update, context)
+  File "C:\Users\Administrator\Desktop\!parser\bot\main.py", line 969, in user_button_handler
+    query.edit_message_text(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\callbackquery.py", line 216, in edit_message_text
+    return self.message.edit_text(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\message.py", line 2246, in edit_text
+    return self.bot.edit_message_text(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 2861, in edit_message_text
+    return self._message(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2024-11-21 21:18:19,587 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:18:19,649 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213099, 'new_chat_photo': [], 'text': '\u26a0\ufe0f \u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u0432\u0430\u0448\u0435\u0433\u043e \u0437\u0430\u043f\u0440\u043e\u0441\u0430. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043f\u043e\u0437\u0436\u0435.', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Rus', 'type': 'private', 'id': 774034928}, 'message_id': 2610, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:18:19,649 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:18:29,094 - telegram.bot - DEBUG - No new updates found.
+2024-11-21 21:18:29,094 - telegram.bot - DEBUG - []
+2024-11-21 21:18:29,094 - telegram.bot - DEBUG - Exiting: get_updates
+2024-11-21 21:18:29,094 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:18:29,668 - telegram.bot - DEBUG - Getting updates: [318267964]
+2024-11-21 21:18:29,668 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002A58DE2F640>]
+2024-11-21 21:18:29,668 - telegram.bot - DEBUG - Exiting: get_updates
+2024-11-21 21:18:29,668 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:18:29,668 - telegram.ext.dispatcher - DEBUG - Processing Update: {'callback_query': {'chat_instance': '-7664268240777482369', 'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213099, 'new_chat_photo': [], 'text': '\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Rus', 'type': 'private', 'id': 774034928}, 'message_id': 2607, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}, 'data': 'menu:select_car', 'id': '3324454703164112506', 'from': {'language_code': 'ru', 'first_name': 'Rus', 'is_bot': False, 'id': 774034928}}, 'update_id': 318267964}
+2024-11-21 21:18:29,668 - telegram.ext.conversationhandler - DEBUG - selecting conversation (774034928, 774034928) with state None
+2024-11-21 21:18:29,668 - telegram.bot - DEBUG - Entering: answer_callback_query
+2024-11-21 21:18:29,699 - telegram.bot - DEBUG - True
+2024-11-21 21:18:29,699 - telegram.bot - DEBUG - Exiting: answer_callback_query
+2024-11-21 21:18:29,699 - telegram.bot - DEBUG - Entering: edit_message_text
+2024-11-21 21:18:29,730 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213099, 'new_chat_photo': [], 'edit_date': 1732213109, 'text': '\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435! \u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c \u0432 \u0430\u0432\u0442\u043e\u0441\u0430\u043b\u043e\u043d Aster auto. \u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0410\u0441\u0435\u0442, \u044f \u0432\u0430\u0448 \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440.\n\n\u0413\u043e\u0442\u043e\u0432 \u043f\u043e\u043c\u043e\u0447\u044c \u0432 \u043f\u043e\u0434\u0431\u043e\u0440\u0435 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430, \u0443\u0447\u0438\u0442\u044b\u0432\u0430\u044f \u0432\u0430\u0448\u0438 \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0442\u0435\u043d\u0438\u044f \u0438 \u0431\u044e\u0434\u0436\u0435\u0442.\n\n\u042f \u0437\u0434\u0435\u0441\u044c, \u0447\u0442\u043e\u0431\u044b \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0432\u0430\u0448 \u043e\u043f\u044b\u0442 \u043f\u043e\u043a\u0443\u043f\u043a\u0438 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u044b\u043c!\n\n\u041a\u0430\u043a\u043e\u0439 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044c \u0432\u0430\u0441 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u0443\u0435\u0442?', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Rus', 'type': 'private', 'id': 774034928}, 'message_id': 2607, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:18:29,730 - telegram.bot - DEBUG - Exiting: edit_message_text
+2024-11-21 21:18:29,730 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\Administrator\Desktop\!parser\bot\main.py", line 998, in button_handler
+    user_button_handler(update, context)
+  File "C:\Users\Administrator\Desktop\!parser\bot\main.py", line 978, in user_button_handler
+    set_inactivity_timer(context, user_id)
+  File "C:\Users\Administrator\Desktop\!parser\bot\main.py", line 482, in set_inactivity_timer
+    context.job_queue.cancel(context.user_data['inactivity_job'])
+AttributeError: 'JobQueue' object has no attribute 'cancel'
+2024-11-21 21:18:29,746 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:18:29,792 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213109, 'new_chat_photo': [], 'text': '\u26a0\ufe0f \u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u0432\u0430\u0448\u0435\u0433\u043e \u0437\u0430\u043f\u0440\u043e\u0441\u0430. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043f\u043e\u0437\u0436\u0435.', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Rus', 'type': 'private', 'id': 774034928}, 'message_id': 2611, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:18:29,792 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:18:30,631 - telegram.bot - DEBUG - Getting updates: [318267965]
+2024-11-21 21:18:30,631 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002A58DE2F400>]
+2024-11-21 21:18:30,631 - telegram.bot - DEBUG - Exiting: get_updates
+2024-11-21 21:18:30,631 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:18:30,631 - telegram.ext.dispatcher - DEBUG - Processing Update: {'callback_query': {'chat_instance': '298877207553602565', 'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213099, 'new_chat_photo': [], 'text': '\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': '\u0413\u0430\u043b\u0438\u043d\u0430', 'type': 'private', 'last_name': '\u041a\u0440\u0443\u0445\u043c\u0430\u043b\u0451\u0432\u0430', 'id': 6407517802}, 'message_id': 2606, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}, 'data': 'menu:select_car', 'id': '9073335335726694792', 'from': {'language_code': 'ru', 'first_name': '\u0413\u0430\u043b\u0438\u043d\u0430', 'is_bot': False, 'last_name': '\u041a\u0440\u0443\u0445\u043c\u0430\u043b\u0451\u0432\u0430', 'id': 6407517802}}, 'update_id': 318267965}
+2024-11-21 21:18:30,631 - telegram.ext.conversationhandler - DEBUG - selecting conversation (6407517802, 6407517802) with state None
+2024-11-21 21:18:30,631 - telegram.bot - DEBUG - Entering: answer_callback_query
+2024-11-21 21:18:30,646 - telegram.bot - DEBUG - True
+2024-11-21 21:18:30,646 - telegram.bot - DEBUG - Exiting: answer_callback_query
+2024-11-21 21:18:30,662 - telegram.bot - DEBUG - Entering: edit_message_text
+2024-11-21 21:18:30,693 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213099, 'new_chat_photo': [], 'edit_date': 1732213110, 'text': '\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435! \u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c \u0432 \u0430\u0432\u0442\u043e\u0441\u0430\u043b\u043e\u043d Aster auto. \u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0410\u0441\u0435\u0442, \u044f \u0432\u0430\u0448 \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440.\n\n\u0413\u043e\u0442\u043e\u0432 \u043f\u043e\u043c\u043e\u0447\u044c \u0432 \u043f\u043e\u0434\u0431\u043e\u0440\u0435 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430, \u0443\u0447\u0438\u0442\u044b\u0432\u0430\u044f \u0432\u0430\u0448\u0438 \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0442\u0435\u043d\u0438\u044f \u0438 \u0431\u044e\u0434\u0436\u0435\u0442.\n\n\u042f \u0437\u0434\u0435\u0441\u044c, \u0447\u0442\u043e\u0431\u044b \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0432\u0430\u0448 \u043e\u043f\u044b\u0442 \u043f\u043e\u043a\u0443\u043f\u043a\u0438 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u044b\u043c!\n\n\u041a\u0430\u043a\u043e\u0439 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044c \u0432\u0430\u0441 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u0443\u0435\u0442?', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': '\u0413\u0430\u043b\u0438\u043d\u0430', 'type': 'private', 'last_name': '\u041a\u0440\u0443\u0445\u043c\u0430\u043b\u0451\u0432\u0430', 'id': 6407517802}, 'message_id': 2606, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:18:30,693 - telegram.bot - DEBUG - Exiting: edit_message_text
+2024-11-21 21:18:30,693 - apscheduler.scheduler - INFO - Added job "send_inactivity_message" to job store "default"
+2024-11-21 21:18:30,693 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2024-11-21 21:18:30,693 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2024-11-21 18:48:19.462039+00:00 (in 1788.768886 seconds)
+2024-11-21 21:18:40,632 - telegram.bot - DEBUG - No new updates found.
+2024-11-21 21:18:40,633 - telegram.bot - DEBUG - []
+2024-11-21 21:18:40,633 - telegram.bot - DEBUG - Exiting: get_updates
+2024-11-21 21:18:40,633 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:18:48,734 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:18:48,734 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:18:48,734 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:18:49,738 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:18:52,219 - telegram.bot - DEBUG - Getting updates: [318267966]
+2024-11-21 21:18:52,219 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002A58DE2F400>]
+2024-11-21 21:18:52,219 - telegram.bot - DEBUG - Exiting: get_updates
+2024-11-21 21:18:52,219 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:18:52,219 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'entities': [{'offset': 0, 'type': 'bot_command', 'length': 6}], 'caption_entities': [], 'date': 1732213132, 'new_chat_photo': [], 'text': '/start', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'type': 'private', 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}, 'message_id': 2612, 'from': {'language_code': 'ru', 'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'is_bot': False, 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}}, 'update_id': 318267966}
+2024-11-21 21:18:52,219 - telegram.ext.conversationhandler - DEBUG - selecting conversation (7335347499, 7335347499) with state None
+2024-11-21 21:18:52,219 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:18:52,250 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213132, 'new_chat_photo': [], 'text': '\u0421 \u0432\u043e\u0437\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u0435\u043c, \u0415\u0440\u0430! \u0427\u0435\u043c \u043c\u043e\u0433\u0443 \u043f\u043e\u043c\u043e\u0447\u044c?', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'type': 'private', 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}, 'message_id': 2613, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:18:52,250 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:18:52,250 - __main__ - INFO - \u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c 7335347499 \u0432\u0435\u0440\u043d\u0443\u043b\u0441\u044f.
+2024-11-21 21:18:52,250 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:18:52,297 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213132, 'new_chat_photo': [], 'text': '\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'type': 'private', 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}, 'message_id': 2614, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:18:52,297 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:18:53,342 - telegram.bot - DEBUG - Getting updates: [318267967]
+2024-11-21 21:18:53,342 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002A58DE2F4C0>]
+2024-11-21 21:18:53,342 - telegram.bot - DEBUG - Exiting: get_updates
+2024-11-21 21:18:53,342 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:18:53,342 - telegram.ext.dispatcher - DEBUG - Processing Update: {'callback_query': {'chat_instance': '-5559892964925360422', 'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213132, 'new_chat_photo': [], 'text': '\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'type': 'private', 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}, 'message_id': 2614, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}, 'data': 'menu:select_car', 'id': '3834961503576272452', 'from': {'language_code': 'ru', 'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'is_bot': False, 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}}, 'update_id': 318267967}
+2024-11-21 21:18:53,342 - telegram.ext.conversationhandler - DEBUG - selecting conversation (7335347499, 7335347499) with state None
+2024-11-21 21:18:53,342 - telegram.bot - DEBUG - Entering: answer_callback_query
+2024-11-21 21:18:53,358 - telegram.bot - DEBUG - True
+2024-11-21 21:18:53,358 - telegram.bot - DEBUG - Exiting: answer_callback_query
+2024-11-21 21:18:53,358 - telegram.bot - DEBUG - Entering: edit_message_text
+2024-11-21 21:18:53,404 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213132, 'new_chat_photo': [], 'edit_date': 1732213133, 'text': '\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435! \u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c \u0432 \u0430\u0432\u0442\u043e\u0441\u0430\u043b\u043e\u043d Aster auto. \u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0410\u0441\u0435\u0442, \u044f \u0432\u0430\u0448 \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440.\n\n\u0413\u043e\u0442\u043e\u0432 \u043f\u043e\u043c\u043e\u0447\u044c \u0432 \u043f\u043e\u0434\u0431\u043e\u0440\u0435 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430, \u0443\u0447\u0438\u0442\u044b\u0432\u0430\u044f \u0432\u0430\u0448\u0438 \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0442\u0435\u043d\u0438\u044f \u0438 \u0431\u044e\u0434\u0436\u0435\u0442.\n\n\u042f \u0437\u0434\u0435\u0441\u044c, \u0447\u0442\u043e\u0431\u044b \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0432\u0430\u0448 \u043e\u043f\u044b\u0442 \u043f\u043e\u043a\u0443\u043f\u043a\u0438 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u044b\u043c!\n\n\u041a\u0430\u043a\u043e\u0439 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044c \u0432\u0430\u0441 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u0443\u0435\u0442?', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'type': 'private', 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}, 'message_id': 2614, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:18:53,404 - telegram.bot - DEBUG - Exiting: edit_message_text
+2024-11-21 21:18:53,404 - apscheduler.scheduler - INFO - Added job "send_inactivity_message" to job store "default"
+2024-11-21 21:18:53,404 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2024-11-21 21:18:53,404 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2024-11-21 18:48:19.462039+00:00 (in 1766.057088 seconds)
+2024-11-21 21:18:53,748 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:18:53,748 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:18:53,748 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:18:54,762 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:18:58,788 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:18:58,788 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:18:58,788 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:00,303 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:00,662 - telegram.bot - DEBUG - Getting updates: [318267970]
+2024-11-21 21:19:00,662 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002A58DE2F4C0>]
+2024-11-21 21:19:00,662 - telegram.bot - DEBUG - Exiting: get_updates
+2024-11-21 21:19:00,662 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:00,662 - telegram.ext.dispatcher - DEBUG - Processing Update: {'callback_query': {'chat_instance': '-5559892964925360422', 'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213138, 'new_chat_photo': [], 'text': '\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'type': 'private', 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}, 'message_id': 2618, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}, 'data': 'menu:select_car', 'id': '3834961504501996252', 'from': {'language_code': 'ru', 'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'is_bot': False, 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}}, 'update_id': 318267970}
+2024-11-21 21:19:00,662 - telegram.ext.conversationhandler - DEBUG - selecting conversation (7335347499, 7335347499) with state None
+2024-11-21 21:19:00,662 - telegram.bot - DEBUG - Entering: answer_callback_query
+2024-11-21 21:19:00,693 - telegram.bot - DEBUG - True
+2024-11-21 21:19:00,693 - telegram.bot - DEBUG - Exiting: answer_callback_query
+2024-11-21 21:19:00,693 - telegram.bot - DEBUG - Entering: edit_message_text
+2024-11-21 21:19:00,708 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213138, 'new_chat_photo': [], 'edit_date': 1732213140, 'text': '\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435! \u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c \u0432 \u0430\u0432\u0442\u043e\u0441\u0430\u043b\u043e\u043d Aster auto. \u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0410\u0441\u0435\u0442, \u044f \u0432\u0430\u0448 \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440.\n\n\u0413\u043e\u0442\u043e\u0432 \u043f\u043e\u043c\u043e\u0447\u044c \u0432 \u043f\u043e\u0434\u0431\u043e\u0440\u0435 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430, \u0443\u0447\u0438\u0442\u044b\u0432\u0430\u044f \u0432\u0430\u0448\u0438 \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0442\u0435\u043d\u0438\u044f \u0438 \u0431\u044e\u0434\u0436\u0435\u0442.\n\n\u042f \u0437\u0434\u0435\u0441\u044c, \u0447\u0442\u043e\u0431\u044b \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0432\u0430\u0448 \u043e\u043f\u044b\u0442 \u043f\u043e\u043a\u0443\u043f\u043a\u0438 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u044b\u043c!\n\n\u041a\u0430\u043a\u043e\u0439 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044c \u0432\u0430\u0441 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u0443\u0435\u0442?', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'type': 'private', 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}, 'message_id': 2618, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:19:00,708 - telegram.bot - DEBUG - Exiting: edit_message_text
+2024-11-21 21:19:00,708 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\Administrator\Desktop\!parser\bot\main.py", line 998, in button_handler
+    user_button_handler(update, context)
+  File "C:\Users\Administrator\Desktop\!parser\bot\main.py", line 978, in user_button_handler
+    set_inactivity_timer(context, user_id)
+  File "C:\Users\Administrator\Desktop\!parser\bot\main.py", line 482, in set_inactivity_timer
+    context.job_queue.cancel(context.user_data['inactivity_job'])
+AttributeError: 'JobQueue' object has no attribute 'cancel'
+2024-11-21 21:19:00,708 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:19:00,740 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213140, 'new_chat_photo': [], 'text': '\u26a0\ufe0f \u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u0432\u0430\u0448\u0435\u0433\u043e \u0437\u0430\u043f\u0440\u043e\u0441\u0430. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043f\u043e\u0437\u0436\u0435.', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'type': 'private', 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}, 'message_id': 2619, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:19:00,740 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:19:01,255 - telegram.bot - DEBUG - Getting updates: [318267971]
+2024-11-21 21:19:01,255 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002A58DE2F340>]
+2024-11-21 21:19:01,255 - telegram.bot - DEBUG - Exiting: get_updates
+2024-11-21 21:19:01,255 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:01,255 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213141, 'new_chat_photo': [], 'text': 'Nissan Almera classic', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Daniyar', 'type': 'private', 'last_name': 'Adilbayev', 'id': 1533135433}, 'message_id': 2620, 'from': {'language_code': 'ru', 'first_name': 'Daniyar', 'is_bot': False, 'last_name': 'Adilbayev', 'id': 1533135433}}, 'update_id': 318267971}
+2024-11-21 21:19:01,255 - telegram.ext.conversationhandler - DEBUG - selecting conversation (1533135433, 1533135433) with state None
+2024-11-21 21:19:01,255 - __main__ - INFO - \u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u043e\u0442 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f 1533135433: Nissan Almera classic
+2024-11-21 21:19:01,255 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:19:01,317 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213141, 'new_chat_photo': [], 'text': '\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Daniyar', 'type': 'private', 'last_name': 'Adilbayev', 'id': 1533135433}, 'message_id': 2621, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:19:01,317 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:19:02,098 - telegram.bot - DEBUG - Getting updates: [318267972]
+2024-11-21 21:19:02,098 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002A58DE2F640>]
+2024-11-21 21:19:02,098 - telegram.bot - DEBUG - Exiting: get_updates
+2024-11-21 21:19:02,098 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:02,098 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213142, 'new_chat_photo': [], 'text': '\u0430\u0432\u0442\u043e \u0434\u043e 10\u043c\u043b\u043d \u0431\u043c\u0432 \u0441\u0435\u0434\u0430\u043d \u0430\u0432\u0442\u043e\u043c\u0430\u0442 \u043e\u0442 2000\u0433', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'type': 'private', 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}, 'message_id': 2622, 'from': {'language_code': 'ru', 'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'is_bot': False, 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}}, 'update_id': 318267972}
+2024-11-21 21:19:02,113 - telegram.ext.conversationhandler - DEBUG - selecting conversation (7335347499, 7335347499) with state None
+2024-11-21 21:19:02,113 - __main__ - INFO - \u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u043e\u0442 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f 7335347499: \u0430\u0432\u0442\u043e \u0434\u043e 10\u043c\u043b\u043d \u0431\u043c\u0432 \u0441\u0435\u0434\u0430\u043d \u0430\u0432\u0442\u043e\u043c\u0430\u0442 \u043e\u0442 2000\u0433
+2024-11-21 21:19:02,129 - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-11-21 21:19:02,129 - openai - DEBUG - api_version=None data='{"model": "gpt-4o-mini", "messages": [{"role": "system", "content": "\\u0422\\u044b \\u043f\\u043e\\u043c\\u043e\\u0449\\u043d\\u0438\\u043a \\u0434\\u043b\\u044f \\u043f\\u043e\\u0434\\u0431\\u043e\\u0440\\u0430 \\u0430\\u0432\\u0442\\u043e\\u043c\\u043e\\u0431\\u0438\\u043b\\u0435\\u0439 \\u043d\\u0430 \\u0441\\u0430\\u0439\\u0442\\u0435 aster.kz. \\u0412\\u0435\\u0434\\u0438 \\u0434\\u0438\\u0430\\u043b\\u043e\\u0433 \\u0441 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0435\\u043c \\u043d\\u0430 \\u0440\\u0443\\u0441\\u0441\\u043a\\u043e\\u043c \\u0438\\u043b\\u0438 \\u043a\\u0430\\u0437\\u0430\\u0445\\u0441\\u043a\\u043e\\u043c \\u044f\\u0437\\u044b\\u043a\\u0435, \\u0437\\u0430\\u0434\\u0430\\u0432\\u0430\\u0439 \\u0443\\u0442\\u043e\\u0447\\u043d\\u044f\\u044e\\u0449\\u0438\\u0435 \\u0432\\u043e\\u043f\\u0440\\u043e\\u0441\\u044b, \\u0438\\u0437\\u0432\\u043b\\u0435\\u043a\\u0430\\u0439 \\u043d\\u0435\\u043e\\u0431\\u0445\\u043e\\u0434\\u0438\\u043c\\u044b\\u0435 \\u043f\\u0430\\u0440\\u0430\\u043c\\u0435\\u0442\\u0440\\u044b \\u0434\\u043b\\u044f \\u0444\\u0438\\u043b\\u044c\\u0442\\u0440\\u0430\\u0446\\u0438\\u0438 \\u0430\\u0432\\u0442\\u043e\\u043c\\u043e\\u0431\\u0438\\u043b\\u0435\\u0439, \\u0442\\u0430\\u043a\\u0438\\u0435 \\u043a\\u0430\\u043a \\u043c\\u0430\\u0440\\u043a\\u0430, \\u043c\\u043e\\u0434\\u0435\\u043b\\u044c, \\u0433\\u043e\\u0434 \\u0432\\u044b\\u043f\\u0443\\u0441\\u043a\\u0430, \\u0442\\u0438\\u043f \\u043a\\u0443\\u0437\\u043e\\u0432\\u0430, \\u043a\\u043e\\u0440\\u043e\\u0431\\u043a\\u0430 \\u043f\\u0435\\u0440\\u0435\\u0434\\u0430\\u0447, \\u0431\\u044e\\u0434\\u0436\\u0435\\u0442 \\u0438 \\u0442.\\u0434., \\u043d\\u043e \\u043d\\u0435 \\u0441\\u043f\\u0440\\u0430\\u0448\\u0438\\u0432\\u0430\\u0439 \\u043f\\u0440\\u043e \\u0442\\u0438\\u043f \\u0442\\u043e\\u043f\\u043b\\u0438\\u0432\\u0430, \\u043f\\u0440\\u043e\\u0431\\u0435\\u0433 \\u0438 \\u043d\\u0435 \\u0441\\u043f\\u0440\\u0430\\u0448\\u0438\\u0432\\u0430\\u0439 \\u043d\\u043e\\u0432\\u044b\\u0439 \\u0438\\u043b\\u0438 \\u0431/\\u0443, \\u0432\\u0441\\u0435 \\u0430\\u0432\\u0442\\u043e\\u043c\\u043e\\u0431\\u0438\\u043b\\u0438 \\u0431/\\u0443. \\u041a\\u043e\\u0433\\u0434\\u0430 \\u0441\\u043e\\u0431\\u0435\\u0440\\u0451\\u0448\\u044c \\u0434\\u043e\\u0441\\u0442\\u0430\\u0442\\u043e\\u0447\\u043d\\u043e \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u0438, \\u043f\\u0440\\u0435\\u0434\\u0441\\u0442\\u0430\\u0432\\u044c \\u043f\\u0430\\u0440\\u0430\\u043c\\u0435\\u0442\\u0440\\u044b \\u0444\\u0438\\u043b\\u044c\\u0442\\u0440\\u0430\\u0446\\u0438\\u0438 \\u0432 \\u0444\\u043e\\u0440\\u043c\\u0430\\u0442\\u0435 JSON, \\u043d\\u0430\\u0447\\u0438\\u043d\\u0430\\u044f \\u0441 \\u043a\\u043b\\u044e\\u0447\\u0435\\u0432\\u043e\\u0433\\u043e \\u0441\\u043b\\u043e\\u0432\\u0430 \'\\u0424\\u0438\\u043b\\u044c\\u0442\\u0440\\u044b:\'. \\u0423\\u0431\\u0435\\u0434\\u0438\\u0441\\u044c, \\u0447\\u0442\\u043e \\u0432\\u0441\\u0435 \\u0437\\u043d\\u0430\\u0447\\u0435\\u043d\\u0438\\u044f \\u0441\\u043e\\u043e\\u0442\\u0432\\u0435\\u0442\\u0441\\u0442\\u0432\\u0443\\u044e\\u0442 \\u043e\\u0436\\u0438\\u0434\\u0430\\u0435\\u043c\\u044b\\u043c \\u0444\\u043e\\u0440\\u043c\\u0430\\u0442\\u0430\\u043c (\\u043d\\u0430\\u043f\\u0440\\u0438\\u043c\\u0435\\u0440, \\u0447\\u0438\\u0441\\u043b\\u0430 \\u0434\\u043b\\u044f \\u0431\\u044e\\u0434\\u0436\\u0435\\u0442\\u0430). \\u0415\\u0441\\u043b\\u0438 \\u043a\\u0430\\u043a\\u0438\\u0435-\\u0442\\u043e \\u0434\\u0430\\u043d\\u043d\\u044b\\u0435 \\u043d\\u0435\\u043a\\u043e\\u0440\\u0440\\u0435\\u043a\\u0442\\u043d\\u044b \\u0438\\u043b\\u0438 \\u043e\\u0442\\u0441\\u0443\\u0442\\u0441\\u0442\\u0432\\u0443\\u044e\\u0442, \\u0430\\u0432\\u0442\\u043e\\u043c\\u0430\\u0442\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438 \\u0438\\u0441\\u043f\\u0440\\u0430\\u0432\\u044c \\u0438\\u0445 \\u0438\\u043b\\u0438 \\u0437\\u0430\\u043f\\u0440\\u043e\\u0441\\u0438 \\u0443\\u0442\\u043e\\u0447\\u043d\\u0435\\u043d\\u0438\\u044f. \\u0415\\u0441\\u043b\\u0438 \\u0437\\u043d\\u0430\\u0447\\u0435\\u043d\\u0438\\u0435 \\u043f\\u0430\\u0440\\u0430\\u043c\\u0435\\u0442\\u0440\\u0430 \\u043d\\u0435 \\u0438\\u043c\\u0435\\u0435\\u0442 \\u0437\\u043d\\u0430\\u0447\\u0435\\u043d\\u0438\\u044f, \\u043d\\u0435 \\u0432\\u043a\\u043b\\u044e\\u0447\\u0430\\u0439 \\u0435\\u0433\\u043e \\u0432 \\u0444\\u0438\\u043b\\u044c\\u0442\\u0440\\u044b. \\u0417\\u0430\\u0442\\u0435\\u043c \\u043f\\u0440\\u0435\\u0434\\u043e\\u0441\\u0442\\u0430\\u0432\\u044c \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044e \\u0441\\u0441\\u044b\\u043b\\u043a\\u0443 \\u043d\\u0430 \\u043f\\u043e\\u043b\\u043d\\u044b\\u0439 \\u0441\\u043f\\u0438\\u0441\\u043e\\u043a \\u043f\\u043e\\u0434\\u0445\\u043e\\u0434\\u044f\\u0449\\u0438\\u0445 \\u0430\\u0432\\u0442\\u043e\\u043c\\u043e\\u0431\\u0438\\u043b\\u0435\\u0439. \\u0412\\u043e\\u0442 \\u043f\\u0440\\u0438\\u043c\\u0435\\u0440 \\u043a\\u043e\\u0440\\u0440\\u0435\\u043a\\u0442\\u043d\\u043e\\u0433\\u043e \\u043e\\u0442\\u0432\\u0435\\u0442\\u0430:\\n\\u0424\\u0438\\u043b\\u044c\\u0442\\u0440\\u044b:\\n```json\\n{\\n  \\"priceTo\\": 6000000,\\n  \\"bodyType\\": \\"sedan\\",\\n  \\"brand\\": \\"bmw\\"\\n}\\n```\\n\\u0421\\u0441\\u044b\\u043b\\u043a\\u0430: [\\u041f\\u043e\\u0441\\u043c\\u043e\\u0442\\u0440\\u0435\\u0442\\u044c \\u0432\\u0441\\u0435 \\u0432\\u0430\\u0440\\u0438\\u0430\\u043d\\u0442\\u044b](https://aster.kz/cars/sedan/bmw/autosalon-ads?yearFrom=2000&priceTo=6000000&transmission=AKPP)\\n\\u041f\\u043e\\u0436\\u0430\\u043b\\u0443\\u0439\\u0441\\u0442\\u0430, \\u0438\\u0441\\u043f\\u043e\\u043b\\u044c\\u0437\\u0443\\u0439 \\u0442\\u043e\\u0447\\u043d\\u044b\\u0435 \\u043a\\u043b\\u044e\\u0447\\u0438 \\u0438 \\u0437\\u043d\\u0430\\u0447\\u0435\\u043d\\u0438\\u044f \\u0432 \\u0444\\u0438\\u043b\\u044c\\u0442\\u0440\\u0430\\u0445, \\u043a\\u0430\\u043a \\u0443\\u043a\\u0430\\u0437\\u0430\\u043d\\u043e."}, {"role": "user", "content": "\\u0430\\u0432\\u0442\\u043e \\u0434\\u043e 10\\u043c\\u043b\\u043d \\u0431\\u043c\\u0432 \\u0441\\u0435\\u0434\\u0430\\u043d \\u0430\\u0432\\u0442\\u043e\\u043c\\u0430\\u0442 \\u043e\\u0442 2000\\u0433"}], "max_tokens": 150, "temperature": 0.7}' message='Post details'
+2024-11-21 21:19:02,129 - urllib3.util.retry - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-11-21 21:19:02,129 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.openai.com:443
+2024-11-21 21:19:03,960 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-11-21 21:19:03,976 - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1651 request_id=req_f8238d08a1926399582add321e5252b9 response_code=200
+2024-11-21 21:19:03,981 - __main__ - INFO - \u041e\u0442\u0432\u0435\u0442 GPT \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f 7335347499: \u0424\u0438\u043b\u044c\u0442\u0440\u044b:
+```json
+{
+  "priceTo": 10000000,
+  "bodyType": "sedan",
+  "brand": "bmw",
+  "yearFrom": 2000,
+  "transmission": "AKPP"
+}
+```
+\u0421\u0441\u044b\u043b\u043a\u0430: [\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0432\u0441\u0435 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b](https://aster.kz/cars/sedan/bmw/autosalon-ads?yearFrom=2000&priceTo=10000000&transmission=AKPP)
+2024-11-21 21:19:03,981 - __main__ - DEBUG - \u041f\u043e\u043b\u043d\u044b\u0439 \u043e\u0442\u0432\u0435\u0442 GPT \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f 7335347499: \u0424\u0438\u043b\u044c\u0442\u0440\u044b:
+```json
+{
+  "priceTo": 10000000,
+  "bodyType": "sedan",
+  "brand": "bmw",
+  "yearFrom": 2000,
+  "transmission": "AKPP"
+}
+```
+\u0421\u0441\u044b\u043b\u043a\u0430: [\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0432\u0441\u0435 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b](https://aster.kz/cars/sedan/bmw/autosalon-ads?yearFrom=2000&priceTo=10000000&transmission=AKPP)
+2024-11-21 21:19:03,981 - __main__ - INFO - \u0418\u0437\u0432\u043b\u0435\u0447\u0451\u043d\u043d\u044b\u0435 \u0444\u0438\u043b\u044c\u0442\u0440\u044b: {'priceTo': 10000000, 'bodyType': 'sedan', 'brand': 'bmw', 'yearFrom': 2000, 'transmission': 'AKPP'}
+2024-11-21 21:19:03,981 - __main__ - WARNING - \u041d\u0435\u043a\u043e\u0440\u0440\u0435\u043a\u0442\u043d\u044b\u0439 \u0442\u0438\u043f \u043a\u0443\u0437\u043e\u0432\u0430: sedan
+2024-11-21 21:19:03,981 - __main__ - WARNING - \u041d\u0435\u043a\u043e\u0440\u0440\u0435\u043a\u0442\u043d\u043e\u0435 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u0434\u043b\u044f transmission: AKPP
+2024-11-21 21:19:03,981 - __main__ - DEBUG - Validated filters: {'priceTo': 10000000, 'brand': 'bmw', 'yearFrom': 2000}
+2024-11-21 21:19:03,992 - __main__ - DEBUG - \u0421\u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u0441\u0441\u044b\u043b\u043a\u0430: https://aster.kz/cars/all/bmw/autosalon-ads?priceTo=10000000&yearFrom=2000
+2024-11-21 21:19:03,992 - __main__ - INFO - \u0421\u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u0441\u0441\u044b\u043b\u043a\u0430 \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f 7335347499: https://aster.kz/cars/all/bmw/autosalon-ads?priceTo=10000000&yearFrom=2000
+2024-11-21 21:19:03,992 - __main__ - INFO - \u0424\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0441\u0441\u044b\u043b\u043a\u0438 \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f 7335347499: https://aster.kz/cars/all/bmw/autosalon-ads?priceTo=10000000&yearFrom=2000
+2024-11-21 21:19:03,992 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:19:04,106 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f517 \u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0432\u0441\u0435 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b', 'url': 'https://aster.kz/cars/all/bmw/autosalon-ads?priceTo=10000000&yearFrom=2000'}]]}, 'date': 1732213144, 'new_chat_photo': [], 'text': '\u0415\u0440\u0430, \u0432\u043e\u0442 \u0441\u0441\u044b\u043b\u043a\u0430 \u043d\u0430 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0438 \u043f\u043e \u0432\u0430\u0448\u0438\u043c \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u0430\u043c:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'type': 'private', 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}, 'message_id': 2623, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:19:04,106 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:19:04,106 - __main__ - INFO - \u041e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0430 \u0441\u0441\u044b\u043b\u043a\u0430 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044e 7335347499: https://aster.kz/cars/all/bmw/autosalon-ads?priceTo=10000000&yearFrom=2000
+2024-11-21 21:19:04,134 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:19:04,214 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213144, 'new_chat_photo': [], 'text': '\u26a0\ufe0f \u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u0432\u0430\u0448\u0438\u0445 \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0442\u0435\u043d\u0438\u0439. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0441\u043d\u043e\u0432\u0430.', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'username': 'assylbekov_e', 'first_name': '\u0415\u0440\u0442\u0438\u043b\u0435\u043a', 'type': 'private', 'last_name': '\u0410\u0441\u044b\u043b\u0431\u0435\u043a\u043e\u0432', 'id': 7335347499}, 'message_id': 2624, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:19:04,214 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:19:04,214 - __main__ - ERROR - \u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u0434\u0435\u043a\u043e\u0434\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438 JSON \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f 7335347499: 'JobQueue' object has no attribute 'cancel'
+2024-11-21 21:19:04,309 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:04,309 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:04,309 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:05,323 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:06,932 - telegram.bot - DEBUG - Getting updates: [318267973]
+2024-11-21 21:19:06,932 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002A58DE2F640>]
+2024-11-21 21:19:06,932 - telegram.bot - DEBUG - Exiting: get_updates
+2024-11-21 21:19:06,932 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:06,932 - telegram.ext.dispatcher - DEBUG - Processing Update: {'callback_query': {'chat_instance': '7675299024015231446', 'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213141, 'new_chat_photo': [], 'text': '\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Daniyar', 'type': 'private', 'last_name': 'Adilbayev', 'id': 1533135433}, 'message_id': 2621, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}, 'data': 'menu:select_car', 'id': '6584766549363348985', 'from': {'language_code': 'ru', 'first_name': 'Daniyar', 'is_bot': False, 'last_name': 'Adilbayev', 'id': 1533135433}}, 'update_id': 318267973}
+2024-11-21 21:19:06,932 - telegram.ext.conversationhandler - DEBUG - selecting conversation (1533135433, 1533135433) with state None
+2024-11-21 21:19:06,932 - telegram.bot - DEBUG - Entering: answer_callback_query
+2024-11-21 21:19:07,072 - telegram.bot - DEBUG - True
+2024-11-21 21:19:07,072 - telegram.bot - DEBUG - Exiting: answer_callback_query
+2024-11-21 21:19:07,072 - telegram.bot - DEBUG - Entering: edit_message_text
+2024-11-21 21:19:07,228 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213141, 'new_chat_photo': [], 'edit_date': 1732213147, 'text': '\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435! \u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c \u0432 \u0430\u0432\u0442\u043e\u0441\u0430\u043b\u043e\u043d Aster auto. \u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0410\u0441\u0435\u0442, \u044f \u0432\u0430\u0448 \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440.\n\n\u0413\u043e\u0442\u043e\u0432 \u043f\u043e\u043c\u043e\u0447\u044c \u0432 \u043f\u043e\u0434\u0431\u043e\u0440\u0435 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430, \u0443\u0447\u0438\u0442\u044b\u0432\u0430\u044f \u0432\u0430\u0448\u0438 \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0442\u0435\u043d\u0438\u044f \u0438 \u0431\u044e\u0434\u0436\u0435\u0442.\n\n\u042f \u0437\u0434\u0435\u0441\u044c, \u0447\u0442\u043e\u0431\u044b \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0432\u0430\u0448 \u043e\u043f\u044b\u0442 \u043f\u043e\u043a\u0443\u043f\u043a\u0438 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u044b\u043c!\n\n\u041a\u0430\u043a\u043e\u0439 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044c \u0432\u0430\u0441 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u0443\u0435\u0442?', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Daniyar', 'type': 'private', 'last_name': 'Adilbayev', 'id': 1533135433}, 'message_id': 2621, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:19:07,228 - telegram.bot - DEBUG - Exiting: edit_message_text
+2024-11-21 21:19:07,228 - apscheduler.scheduler - INFO - Added job "send_inactivity_message" to job store "default"
+2024-11-21 21:19:07,228 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2024-11-21 21:19:07,228 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2024-11-21 18:48:19.462039+00:00 (in 1752.233145 seconds)
+2024-11-21 21:19:09,836 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:09,836 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:09,836 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:10,851 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:16,115 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:16,115 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:16,115 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:17,630 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:20,739 - telegram.bot - DEBUG - Getting updates: [318267975]
+2024-11-21 21:19:20,739 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002A58DE2F640>]
+2024-11-21 21:19:20,739 - telegram.bot - DEBUG - Exiting: get_updates
+2024-11-21 21:19:20,739 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:20,739 - telegram.ext.dispatcher - DEBUG - Processing Update: {'callback_query': {'chat_instance': '7675299024015231446', 'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'reply_markup': {'inline_keyboard': [[{'text': '\U0001f50d \u041f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0430\u0432\u0442\u043e', 'callback_data': 'menu:select_car'}], [{'text': '\U0001f381 \u041c\u043e\u0438 \u043f\u0440\u0438\u0437\u044b', 'callback_data': 'menu:my_prizes'}], [{'text': '\U0001f4de \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440\u043e\u043c', 'url': 'https://wa.me/77019911161?text=\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435%20\u044f%20\u043f\u0435\u0440\u0435\u0448\u0435\u043b%20\u0438\u0437%20\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c\u043c\u0430.'}]]}, 'date': 1732213157, 'new_chat_photo': [], 'text': '\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Daniyar', 'type': 'private', 'last_name': 'Adilbayev', 'id': 1533135433}, 'message_id': 2626, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}, 'data': 'menu:select_car', 'id': '6584766548408283694', 'from': {'language_code': 'ru', 'first_name': 'Daniyar', 'is_bot': False, 'last_name': 'Adilbayev', 'id': 1533135433}}, 'update_id': 318267975}
+2024-11-21 21:19:20,739 - telegram.ext.conversationhandler - DEBUG - selecting conversation (1533135433, 1533135433) with state None
+2024-11-21 21:19:20,739 - telegram.bot - DEBUG - Entering: answer_callback_query
+2024-11-21 21:19:20,754 - telegram.bot - DEBUG - True
+2024-11-21 21:19:20,754 - telegram.bot - DEBUG - Exiting: answer_callback_query
+2024-11-21 21:19:20,754 - telegram.bot - DEBUG - Entering: edit_message_text
+2024-11-21 21:19:20,785 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213157, 'new_chat_photo': [], 'edit_date': 1732213160, 'text': '\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435! \u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c \u0432 \u0430\u0432\u0442\u043e\u0441\u0430\u043b\u043e\u043d Aster auto. \u041c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 \u0410\u0441\u0435\u0442, \u044f \u0432\u0430\u0448 \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440.\n\n\u0413\u043e\u0442\u043e\u0432 \u043f\u043e\u043c\u043e\u0447\u044c \u0432 \u043f\u043e\u0434\u0431\u043e\u0440\u0435 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u0430, \u0443\u0447\u0438\u0442\u044b\u0432\u0430\u044f \u0432\u0430\u0448\u0438 \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0442\u0435\u043d\u0438\u044f \u0438 \u0431\u044e\u0434\u0436\u0435\u0442.\n\n\u042f \u0437\u0434\u0435\u0441\u044c, \u0447\u0442\u043e\u0431\u044b \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0432\u0430\u0448 \u043e\u043f\u044b\u0442 \u043f\u043e\u043a\u0443\u043f\u043a\u0438 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u044b\u043c!\n\n\u041a\u0430\u043a\u043e\u0439 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044c \u0432\u0430\u0441 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u0443\u0435\u0442?', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Daniyar', 'type': 'private', 'last_name': 'Adilbayev', 'id': 1533135433}, 'message_id': 2626, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:19:20,785 - telegram.bot - DEBUG - Exiting: edit_message_text
+2024-11-21 21:19:20,785 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\Administrator\Desktop\!parser\bot\main.py", line 998, in button_handler
+    user_button_handler(update, context)
+  File "C:\Users\Administrator\Desktop\!parser\bot\main.py", line 978, in user_button_handler
+    set_inactivity_timer(context, user_id)
+  File "C:\Users\Administrator\Desktop\!parser\bot\main.py", line 482, in set_inactivity_timer
+    context.job_queue.cancel(context.user_data['inactivity_job'])
+AttributeError: 'JobQueue' object has no attribute 'cancel'
+2024-11-21 21:19:20,785 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:19:20,832 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213160, 'new_chat_photo': [], 'text': '\u26a0\ufe0f \u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u0432\u0430\u0448\u0435\u0433\u043e \u0437\u0430\u043f\u0440\u043e\u0441\u0430. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043f\u043e\u0437\u0436\u0435.', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Daniyar', 'type': 'private', 'last_name': 'Adilbayev', 'id': 1533135433}, 'message_id': 2627, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:19:20,832 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:19:21,645 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:21,645 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:21,645 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:22,660 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:23,753 - telegram.bot - DEBUG - Getting updates: [318267976]
+2024-11-21 21:19:23,753 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x000002A58DE2F640>]
+2024-11-21 21:19:23,753 - telegram.bot - DEBUG - Exiting: get_updates
+2024-11-21 21:19:23,753 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:23,753 - telegram.ext.dispatcher - DEBUG - Processing Update: {'message': {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213163, 'new_chat_photo': [], 'text': '\u041d\u0438\u0441\u0441\u0430\u043d', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Daniyar', 'type': 'private', 'last_name': 'Adilbayev', 'id': 1533135433}, 'message_id': 2628, 'from': {'language_code': 'ru', 'first_name': 'Daniyar', 'is_bot': False, 'last_name': 'Adilbayev', 'id': 1533135433}}, 'update_id': 318267976}
+2024-11-21 21:19:23,753 - telegram.ext.conversationhandler - DEBUG - selecting conversation (1533135433, 1533135433) with state None
+2024-11-21 21:19:23,769 - __main__ - INFO - \u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u043e\u0442 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f 1533135433: \u041d\u0438\u0441\u0441\u0430\u043d
+2024-11-21 21:19:23,769 - openai - DEBUG - message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+2024-11-21 21:19:23,769 - openai - DEBUG - api_version=None data='{"model": "gpt-4o-mini", "messages": [{"role": "system", "content": "\\u0422\\u044b \\u043f\\u043e\\u043c\\u043e\\u0449\\u043d\\u0438\\u043a \\u0434\\u043b\\u044f \\u043f\\u043e\\u0434\\u0431\\u043e\\u0440\\u0430 \\u0430\\u0432\\u0442\\u043e\\u043c\\u043e\\u0431\\u0438\\u043b\\u0435\\u0439 \\u043d\\u0430 \\u0441\\u0430\\u0439\\u0442\\u0435 aster.kz. \\u0412\\u0435\\u0434\\u0438 \\u0434\\u0438\\u0430\\u043b\\u043e\\u0433 \\u0441 \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0435\\u043c \\u043d\\u0430 \\u0440\\u0443\\u0441\\u0441\\u043a\\u043e\\u043c \\u0438\\u043b\\u0438 \\u043a\\u0430\\u0437\\u0430\\u0445\\u0441\\u043a\\u043e\\u043c \\u044f\\u0437\\u044b\\u043a\\u0435, \\u0437\\u0430\\u0434\\u0430\\u0432\\u0430\\u0439 \\u0443\\u0442\\u043e\\u0447\\u043d\\u044f\\u044e\\u0449\\u0438\\u0435 \\u0432\\u043e\\u043f\\u0440\\u043e\\u0441\\u044b, \\u0438\\u0437\\u0432\\u043b\\u0435\\u043a\\u0430\\u0439 \\u043d\\u0435\\u043e\\u0431\\u0445\\u043e\\u0434\\u0438\\u043c\\u044b\\u0435 \\u043f\\u0430\\u0440\\u0430\\u043c\\u0435\\u0442\\u0440\\u044b \\u0434\\u043b\\u044f \\u0444\\u0438\\u043b\\u044c\\u0442\\u0440\\u0430\\u0446\\u0438\\u0438 \\u0430\\u0432\\u0442\\u043e\\u043c\\u043e\\u0431\\u0438\\u043b\\u0435\\u0439, \\u0442\\u0430\\u043a\\u0438\\u0435 \\u043a\\u0430\\u043a \\u043c\\u0430\\u0440\\u043a\\u0430, \\u043c\\u043e\\u0434\\u0435\\u043b\\u044c, \\u0433\\u043e\\u0434 \\u0432\\u044b\\u043f\\u0443\\u0441\\u043a\\u0430, \\u0442\\u0438\\u043f \\u043a\\u0443\\u0437\\u043e\\u0432\\u0430, \\u043a\\u043e\\u0440\\u043e\\u0431\\u043a\\u0430 \\u043f\\u0435\\u0440\\u0435\\u0434\\u0430\\u0447, \\u0431\\u044e\\u0434\\u0436\\u0435\\u0442 \\u0438 \\u0442.\\u0434., \\u043d\\u043e \\u043d\\u0435 \\u0441\\u043f\\u0440\\u0430\\u0448\\u0438\\u0432\\u0430\\u0439 \\u043f\\u0440\\u043e \\u0442\\u0438\\u043f \\u0442\\u043e\\u043f\\u043b\\u0438\\u0432\\u0430, \\u043f\\u0440\\u043e\\u0431\\u0435\\u0433 \\u0438 \\u043d\\u0435 \\u0441\\u043f\\u0440\\u0430\\u0448\\u0438\\u0432\\u0430\\u0439 \\u043d\\u043e\\u0432\\u044b\\u0439 \\u0438\\u043b\\u0438 \\u0431/\\u0443, \\u0432\\u0441\\u0435 \\u0430\\u0432\\u0442\\u043e\\u043c\\u043e\\u0431\\u0438\\u043b\\u0438 \\u0431/\\u0443. \\u041a\\u043e\\u0433\\u0434\\u0430 \\u0441\\u043e\\u0431\\u0435\\u0440\\u0451\\u0448\\u044c \\u0434\\u043e\\u0441\\u0442\\u0430\\u0442\\u043e\\u0447\\u043d\\u043e \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u0438, \\u043f\\u0440\\u0435\\u0434\\u0441\\u0442\\u0430\\u0432\\u044c \\u043f\\u0430\\u0440\\u0430\\u043c\\u0435\\u0442\\u0440\\u044b \\u0444\\u0438\\u043b\\u044c\\u0442\\u0440\\u0430\\u0446\\u0438\\u0438 \\u0432 \\u0444\\u043e\\u0440\\u043c\\u0430\\u0442\\u0435 JSON, \\u043d\\u0430\\u0447\\u0438\\u043d\\u0430\\u044f \\u0441 \\u043a\\u043b\\u044e\\u0447\\u0435\\u0432\\u043e\\u0433\\u043e \\u0441\\u043b\\u043e\\u0432\\u0430 \'\\u0424\\u0438\\u043b\\u044c\\u0442\\u0440\\u044b:\'. \\u0423\\u0431\\u0435\\u0434\\u0438\\u0441\\u044c, \\u0447\\u0442\\u043e \\u0432\\u0441\\u0435 \\u0437\\u043d\\u0430\\u0447\\u0435\\u043d\\u0438\\u044f \\u0441\\u043e\\u043e\\u0442\\u0432\\u0435\\u0442\\u0441\\u0442\\u0432\\u0443\\u044e\\u0442 \\u043e\\u0436\\u0438\\u0434\\u0430\\u0435\\u043c\\u044b\\u043c \\u0444\\u043e\\u0440\\u043c\\u0430\\u0442\\u0430\\u043c (\\u043d\\u0430\\u043f\\u0440\\u0438\\u043c\\u0435\\u0440, \\u0447\\u0438\\u0441\\u043b\\u0430 \\u0434\\u043b\\u044f \\u0431\\u044e\\u0434\\u0436\\u0435\\u0442\\u0430). \\u0415\\u0441\\u043b\\u0438 \\u043a\\u0430\\u043a\\u0438\\u0435-\\u0442\\u043e \\u0434\\u0430\\u043d\\u043d\\u044b\\u0435 \\u043d\\u0435\\u043a\\u043e\\u0440\\u0440\\u0435\\u043a\\u0442\\u043d\\u044b \\u0438\\u043b\\u0438 \\u043e\\u0442\\u0441\\u0443\\u0442\\u0441\\u0442\\u0432\\u0443\\u044e\\u0442, \\u0430\\u0432\\u0442\\u043e\\u043c\\u0430\\u0442\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438 \\u0438\\u0441\\u043f\\u0440\\u0430\\u0432\\u044c \\u0438\\u0445 \\u0438\\u043b\\u0438 \\u0437\\u0430\\u043f\\u0440\\u043e\\u0441\\u0438 \\u0443\\u0442\\u043e\\u0447\\u043d\\u0435\\u043d\\u0438\\u044f. \\u0415\\u0441\\u043b\\u0438 \\u0437\\u043d\\u0430\\u0447\\u0435\\u043d\\u0438\\u0435 \\u043f\\u0430\\u0440\\u0430\\u043c\\u0435\\u0442\\u0440\\u0430 \\u043d\\u0435 \\u0438\\u043c\\u0435\\u0435\\u0442 \\u0437\\u043d\\u0430\\u0447\\u0435\\u043d\\u0438\\u044f, \\u043d\\u0435 \\u0432\\u043a\\u043b\\u044e\\u0447\\u0430\\u0439 \\u0435\\u0433\\u043e \\u0432 \\u0444\\u0438\\u043b\\u044c\\u0442\\u0440\\u044b. \\u0417\\u0430\\u0442\\u0435\\u043c \\u043f\\u0440\\u0435\\u0434\\u043e\\u0441\\u0442\\u0430\\u0432\\u044c \\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u044e \\u0441\\u0441\\u044b\\u043b\\u043a\\u0443 \\u043d\\u0430 \\u043f\\u043e\\u043b\\u043d\\u044b\\u0439 \\u0441\\u043f\\u0438\\u0441\\u043e\\u043a \\u043f\\u043e\\u0434\\u0445\\u043e\\u0434\\u044f\\u0449\\u0438\\u0445 \\u0430\\u0432\\u0442\\u043e\\u043c\\u043e\\u0431\\u0438\\u043b\\u0435\\u0439. \\u0412\\u043e\\u0442 \\u043f\\u0440\\u0438\\u043c\\u0435\\u0440 \\u043a\\u043e\\u0440\\u0440\\u0435\\u043a\\u0442\\u043d\\u043e\\u0433\\u043e \\u043e\\u0442\\u0432\\u0435\\u0442\\u0430:\\n\\u0424\\u0438\\u043b\\u044c\\u0442\\u0440\\u044b:\\n```json\\n{\\n  \\"priceTo\\": 6000000,\\n  \\"bodyType\\": \\"sedan\\",\\n  \\"brand\\": \\"bmw\\"\\n}\\n```\\n\\u0421\\u0441\\u044b\\u043b\\u043a\\u0430: [\\u041f\\u043e\\u0441\\u043c\\u043e\\u0442\\u0440\\u0435\\u0442\\u044c \\u0432\\u0441\\u0435 \\u0432\\u0430\\u0440\\u0438\\u0430\\u043d\\u0442\\u044b](https://aster.kz/cars/sedan/bmw/autosalon-ads?yearFrom=2000&priceTo=6000000&transmission=AKPP)\\n\\u041f\\u043e\\u0436\\u0430\\u043b\\u0443\\u0439\\u0441\\u0442\\u0430, \\u0438\\u0441\\u043f\\u043e\\u043b\\u044c\\u0437\\u0443\\u0439 \\u0442\\u043e\\u0447\\u043d\\u044b\\u0435 \\u043a\\u043b\\u044e\\u0447\\u0438 \\u0438 \\u0437\\u043d\\u0430\\u0447\\u0435\\u043d\\u0438\\u044f \\u0432 \\u0444\\u0438\\u043b\\u044c\\u0442\\u0440\\u0430\\u0445, \\u043a\\u0430\\u043a \\u0443\\u043a\\u0430\\u0437\\u0430\\u043d\\u043e."}, {"role": "user", "content": "\\u041d\\u0438\\u0441\\u0441\\u0430\\u043d"}], "max_tokens": 150, "temperature": 0.7}' message='Post details'
+2024-11-21 21:19:25,597 - urllib3.connectionpool - DEBUG - https://api.openai.com:443 "POST /v1/chat/completions HTTP/11" 200 None
+2024-11-21 21:19:25,597 - openai - DEBUG - message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1687 request_id=req_50800810bb5166c769fd9ab71a93d360 response_code=200
+2024-11-21 21:19:25,597 - __main__ - INFO - \u041e\u0442\u0432\u0435\u0442 GPT \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f 1533135433: \u041e\u0442\u043b\u0438\u0447\u043d\u043e! \u0412\u044b \u0432\u044b\u0431\u0440\u0430\u043b\u0438 \u043c\u0430\u0440\u043a\u0443 Nissan. \u0414\u0430\u0432\u0430\u0439\u0442\u0435 \u0443\u0442\u043e\u0447\u043d\u0438\u043c \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b, \u0447\u0442\u043e\u0431\u044b \u044f \u043c\u043e\u0433 \u043f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0434\u043b\u044f \u0432\u0430\u0441 \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0435 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0438.
+
+1. \u041a\u0430\u043a\u0443\u044e \u043c\u043e\u0434\u0435\u043b\u044c Nissan \u0432\u044b \u0438\u0449\u0435\u0442\u0435? (\u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, Almera, X-Trail, Qashqai \u0438 \u0442.\u0434.)
+2. \u041a\u0430\u043a\u043e\u0439 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0439 \u0431\u044e\u0434\u0436\u0435\u0442 \u0443 \u0432\u0430\u0441 \u0435\u0441\u0442\u044c?
+3. \u041a\u0430\u043a\u043e\u0439 \u0433\u043e\u0434 \u0432\u044b\u043f\u0443\u0441\u043a\u0430 \u0432\u0430\u0441 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u0443\u0435\u0442? (\u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0441 2010 \u0433\u043e\u0434\u0430 \u0438 \u043f\u043e\u0437\u0436\u0435)
+4. \u041a\u0430\u043a\u043e\u0439 \u0442\u0438\u043f \u043a\u0443\u0437\u043e\u0432\u0430 \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0438\u0442\u0430\u0435\u0442\u0435? (\u0441\u0435\u0434\u0430\u043d, \u0445\u044d\u0442\u0447\u0431\u0435\u043a, \u0432\u043d\u0435\u0434\u043e\u0440\u043e\u0436\u043d\u0438\u043a \u0438 \u0442.\u0434.)
+5. \u041a\u0430\u043a\u0443\u044e \u043a\u043e\u0440\u043e\u0431\u043a\u0443 \u043f\u0435\u0440\u0435\u0434\u0430\u0447 \u0432\u044b \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0438\u0442\u0430\u0435\u0442\u0435? (\u043c\u0435\u0445\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0438\u043b\u0438 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f)
+2024-11-21 21:19:25,597 - __main__ - DEBUG - \u041f\u043e\u043b\u043d\u044b\u0439 \u043e\u0442\u0432\u0435\u0442 GPT \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f 1533135433: \u041e\u0442\u043b\u0438\u0447\u043d\u043e! \u0412\u044b \u0432\u044b\u0431\u0440\u0430\u043b\u0438 \u043c\u0430\u0440\u043a\u0443 Nissan. \u0414\u0430\u0432\u0430\u0439\u0442\u0435 \u0443\u0442\u043e\u0447\u043d\u0438\u043c \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b, \u0447\u0442\u043e\u0431\u044b \u044f \u043c\u043e\u0433 \u043f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0434\u043b\u044f \u0432\u0430\u0441 \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0435 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0438.
+
+1. \u041a\u0430\u043a\u0443\u044e \u043c\u043e\u0434\u0435\u043b\u044c Nissan \u0432\u044b \u0438\u0449\u0435\u0442\u0435? (\u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, Almera, X-Trail, Qashqai \u0438 \u0442.\u0434.)
+2. \u041a\u0430\u043a\u043e\u0439 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0439 \u0431\u044e\u0434\u0436\u0435\u0442 \u0443 \u0432\u0430\u0441 \u0435\u0441\u0442\u044c?
+3. \u041a\u0430\u043a\u043e\u0439 \u0433\u043e\u0434 \u0432\u044b\u043f\u0443\u0441\u043a\u0430 \u0432\u0430\u0441 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u0443\u0435\u0442? (\u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0441 2010 \u0433\u043e\u0434\u0430 \u0438 \u043f\u043e\u0437\u0436\u0435)
+4. \u041a\u0430\u043a\u043e\u0439 \u0442\u0438\u043f \u043a\u0443\u0437\u043e\u0432\u0430 \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0438\u0442\u0430\u0435\u0442\u0435? (\u0441\u0435\u0434\u0430\u043d, \u0445\u044d\u0442\u0447\u0431\u0435\u043a, \u0432\u043d\u0435\u0434\u043e\u0440\u043e\u0436\u043d\u0438\u043a \u0438 \u0442.\u0434.)
+5. \u041a\u0430\u043a\u0443\u044e \u043a\u043e\u0440\u043e\u0431\u043a\u0443 \u043f\u0435\u0440\u0435\u0434\u0430\u0447 \u0432\u044b \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0438\u0442\u0430\u0435\u0442\u0435? (\u043c\u0435\u0445\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0438\u043b\u0438 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f)
+2024-11-21 21:19:25,597 - telegram.bot - DEBUG - Entering: send_message
+2024-11-21 21:19:25,628 - telegram.bot - DEBUG - {'new_chat_members': [], 'entities': [], 'caption_entities': [], 'date': 1732213165, 'new_chat_photo': [], 'text': '\u041e\u0442\u043b\u0438\u0447\u043d\u043e! \u0412\u044b \u0432\u044b\u0431\u0440\u0430\u043b\u0438 \u043c\u0430\u0440\u043a\u0443 Nissan. \u0414\u0430\u0432\u0430\u0439\u0442\u0435 \u0443\u0442\u043e\u0447\u043d\u0438\u043c \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b, \u0447\u0442\u043e\u0431\u044b \u044f \u043c\u043e\u0433 \u043f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u0434\u043b\u044f \u0432\u0430\u0441 \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0435 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0438.\n\n1. \u041a\u0430\u043a\u0443\u044e \u043c\u043e\u0434\u0435\u043b\u044c Nissan \u0432\u044b \u0438\u0449\u0435\u0442\u0435? (\u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, Almera, X-Trail, Qashqai \u0438 \u0442.\u0434.)\n2. \u041a\u0430\u043a\u043e\u0439 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0439 \u0431\u044e\u0434\u0436\u0435\u0442 \u0443 \u0432\u0430\u0441 \u0435\u0441\u0442\u044c?\n3. \u041a\u0430\u043a\u043e\u0439 \u0433\u043e\u0434 \u0432\u044b\u043f\u0443\u0441\u043a\u0430 \u0432\u0430\u0441 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u0443\u0435\u0442? (\u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0441 2010 \u0433\u043e\u0434\u0430 \u0438 \u043f\u043e\u0437\u0436\u0435)\n4. \u041a\u0430\u043a\u043e\u0439 \u0442\u0438\u043f \u043a\u0443\u0437\u043e\u0432\u0430 \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0438\u0442\u0430\u0435\u0442\u0435? (\u0441\u0435\u0434\u0430\u043d, \u0445\u044d\u0442\u0447\u0431\u0435\u043a, \u0432\u043d\u0435\u0434\u043e\u0440\u043e\u0436\u043d\u0438\u043a \u0438 \u0442.\u0434.)\n5. \u041a\u0430\u043a\u0443\u044e \u043a\u043e\u0440\u043e\u0431\u043a\u0443 \u043f\u0435\u0440\u0435\u0434\u0430\u0447 \u0432\u044b \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0438\u0442\u0430\u0435\u0442\u0435? (\u043c\u0435\u0445\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0438\u043b\u0438 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f)', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'group_chat_created': False, 'channel_chat_created': False, 'photo': [], 'chat': {'first_name': 'Daniyar', 'type': 'private', 'last_name': 'Adilbayev', 'id': 1533135433}, 'message_id': 2629, 'from': {'username': 'asterauto_bot', 'first_name': '\u0418\u0418 | \u0410\u0432\u0442\u043e\u041f\u043e\u0434\u0431\u043e\u0440 | ASTER.KZ', 'is_bot': True, 'id': 7993124251}}
+2024-11-21 21:19:25,628 - telegram.bot - DEBUG - Exiting: send_message
+2024-11-21 21:19:27,175 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:27,175 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:27,175 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:28,190 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:33,455 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:33,455 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:33,455 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:34,971 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:38,986 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:38,986 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:38,986 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:41,251 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:45,767 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:45,767 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:45,767 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:49,157 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:19:54,423 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:54,423 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:54,423 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:19:59,501 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:20:02,891 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:20:02,891 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:20:02,891 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:20:10,501 - telegram.bot - DEBUG - Entering: get_updates
+2024-11-21 21:20:15,579 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:20:15,579 - telegram.ext.dispatcher - DEBUG - Processing Update: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-11-21 21:20:15,579 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 651, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 602, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 228, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 3140, in get_updates
+    self._post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
