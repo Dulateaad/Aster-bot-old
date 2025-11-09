@@ -1,0 +1,8 @@
+INFO:aiogram:Bot: \u0422\u041e\u041f \u0446\u0435\u043d\u044b \u043d\u0430 \u0410\u0412\u0422\u041e | ASTER.KZ [@asterkz_panelbot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:database:\u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043e.
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "send_daily_notifications" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:__main__:\u041f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0449\u0438\u043a \u0437\u0430\u0434\u0430\u0447 \u0437\u0430\u043f\u0443\u0449\u0435\u043d
+INFO:aiogram.dispatcher.dispatcher:Start polling.
